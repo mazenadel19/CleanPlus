@@ -1,0 +1,370 @@
+/* Start Gloabal */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: #b85eff 0.5px solid;
+    width: 10%;   
+}
+
+.special1{
+    border: #b85eff 1px solid;
+    width: 30%;   
+}
+
+.special2{
+    border: #b85eff 0.5px double;
+    width: 10%; 
+}
+
+/* End Gloabal */
+
+/* Start  container*/
+
+.container{
+    width: 80%; 
+    margin: auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* End container*/
+
+
+/* Start Header*/
+
+header nav{
+    background-color: #505976;
+    color: #FFF;
+    overflow: auto;
+}
+
+header nav p{
+float: left;
+font-size: 1.1em;
+margin: 10px;
+padding: 6px;
+text-transform: uppercase;
+}
+
+header nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    float: right;
+    margin: 3px;
+}
+
+header nav ul li{
+    float: left;
+    padding: 15px;
+    margin-bottom: 0;
+    font-size: 0.9em
+    
+}
+
+
+
+header main .home{
+    background: url(../assets/img/home.jpg);
+    background-size: 100% 100%;
+    height: 550px;
+    position: relative;
+    /*opacity:0.5;*/
+}
+
+header main .home img{
+    width: 100%;
+    height: 517px;
+}
+
+
+/* header main .picopacityTest{
+    position: relative;
+} */
+
+/*
+header main .picopacityTest::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,250, 1);
+} */
+
+header main  .home .picopacityTest2{
+    position: absolute;
+    background-color: rgb(171, 185, 244,0.8);
+    width: 100%;
+    height: 550px;
+    top: 0;
+    right: 0;
+}
+
+/* header main  .home .flex{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+header main .home-side {
+    position: absolute;
+    width: 40%;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+header main .home-side img{
+    width: 60%;
+    height: 50%;
+    position: relative;
+    top: 28%
+}
+
+header main .home_Text{
+    height: 100%;
+    color: white;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 60%;
+}
+
+header main .home_Text .home_mainText{
+    line-height: 1.5;
+    font-size: 3em;
+    letter-spacing: 1.1;
+    width: 100%;
+    position: relative;
+    top: 10%;
+    left:15%;
+    font-weight: bold;
+}
+
+header main .home_Text .home_subText{
+    font-size: 1em;
+    position: absolute;
+    top: 45%;
+    left:15%;
+    line-height: 2;
+}
+
+header main .home_mainText span{
+    background-color: #505976;
+    padding: 5px;
+    border-radius: 6%;
+    padding: 5px 15px;
+}
+
+header main .home_toggle{
+    background-color: #4c86ce;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    position: absolute;
+    top: 70%;
+    left:15%;
+    border: 1px solid #3077BE;
+    padding: 10px 10px 10px 15px;
+}
+
+/* End Header*/
+
+
+/* Start Awesome Features*/
+
+section h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section h2 span{
+        background-color: #68a2d5;
+        border-radius: 9px;
+        padding: 4px 10px 2px 16px;
+        color: white;
+
+}
+
+.aFeatures{
+    overflow: auto;
+    padding: 2.5em;
+}
+
+.aFeatures .container div{
+    float: left;
+    width: 30%;
+    margin: 1%;
+    height: 300px;
+    text-align: center;
+    color: gray;
+
+}
+
+.aFeatures .container div img{
+    width: 50%;
+
+}
+.bulb{
+    align-self: center;
+    background: url(../assets/img/bulb-white.png) no-repeat;
+    /* background-size: contain; */
+    background-size: 50% 80%;
+    background-position: center;
+    position: relative;
+    bottom: 30px;
+
+}
+.bulb:hover{
+
+    background: url(../assets/img/bulb-yellow.png) no-repeat;    
+    /* background-size: contain; */
+    background-size: 50% 80%;
+    background-position: center;
+
+
+}
+
+/* End Awesome Features*/
+
+
+/* Start Features*/
+
+.features{
+    background-image: url(../assets/img/15.png);
+    background-color:#8f8f8f;
+    height: 120px;
+    overflow: auto;
+    padding: 2.5em;
+}
+
+.features .container div{
+    float: left;
+    width: 23%;
+    margin: 1%;
+    height: 80px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.features .container div i{
+    font-size: 3em;
+    margin-bottom: 25px;
+
+    
+}
+
+
+/* End Features*/
+
+
+/* Start Awesome Features*/
+
+.aOptions{
+    overflow: auto;
+    padding: 2.5em;
+
+}
+
+.aOptions .container div{
+    float: left;
+    width: 30%;
+    margin: 1%;
+    height: 300px;
+    text-align: center;
+    color: gray;
+}
+
+.aOptions .container div img{
+    width: 50%;
+}
+
+/* Start Headline*/
+.headline{
+    background-color: #5170ea;
+}
+
+.headline h2{
+    text-transform: uppercase;
+    color: #FFF;
+    padding: 2em;
+}
+/* End Headline*/
+
+
+/* Start Gallary*/
+
+.gallary .container ul{
+    list-style: none;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 0.75em;
+}
+
+.gallary .container ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 3px;
+    font-weight: 200;
+}
+.gallary .container ul li::after{
+    content: " / ";
+}
+.gallary .container ul li:last-child::after{
+    content: "";
+}
+
+.gallary {
+    overflow: hidden;
+    padding: 2.5em;
+
+}
+.gallary .container div{
+    float: left;
+    width: 30%;
+    height: fit-content;
+    margin: 1%;
+
+}
+
+.gallary .container div img{
+    width: 100%;
+    border: 1px solid #DDD;
+    
+}
+
+/* End Gallary*/
+
+
+/* Start Location*/
+.location{
+    background-color: #95a6f8;
+    height: 100%;
+    padding: 3em;
+}
+
+section h3, .location p{
+    margin: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.location h2, .location p {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.right{
+    float: right;
+}
+
+/* End Location*/
